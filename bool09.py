@@ -7,6 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    b=(a>=1 and a<=9 and a*1.0==int(a))
+    b=(a>=1 and a<=9 and int(a))
     return b
 print(main(7))
